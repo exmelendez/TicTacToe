@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainActivityBG"
+    android:paddingBottom="50dp"
+    tools:context="com.example.android.tictactoe.MainActivity">
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num_of_ppl_tv"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/start_game_btn_padding"
+        android:text="@string/start_game"
+        android:textSize="@dimen/start_game_btn_textsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/game_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/start_game_btn"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/game_title_tv_padding"
+        android:text="@string/game_title_tv"
+        android:textSize="@dimen/game_title_tv_TextSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/num_of_ppl_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num_of_players_switch"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Number of Players"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/num_of_players_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:text="1"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="start_game">START GAME</string>
+    <string name="game_title_tv">XO</string>
+    <string name="main_layout_toggle_textoff">2 Player</string>
+    <string name="main_layout_toggle_texton">1 Player</string>
+</resources>

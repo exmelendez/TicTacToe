@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_title_tv_padding">20dp</dimen>
+    <dimen name="game_title_tv_TextSize">210sp</dimen>
+    <dimen name="start_game_btn_padding">30dp</dimen>
+    <dimen name="start_game_btn_textsize">23sp</dimen>
+    <dimen name="num_of_players_btn_padding">20dp</dimen>
+</resources>
